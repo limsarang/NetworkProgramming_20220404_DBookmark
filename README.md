@@ -10,7 +10,6 @@
 2. startapp bookmark
    1. python manage.py startapp bookmark
    2. add 'bookmark', to INSTALLED_APPS in settings.py
-   
 3. bookmark/models Bookmark
    1. python manage.py makemigrations bookmark
       1. models -> DB로 옮기기 위한 py
@@ -22,3 +21,9 @@
 4. bookmark/views BookmarkListView
 5. urls, bookmark/urls bookmark:list
 6. templates bookmark_list.html
+7. bookmark/views BookmarkCreateView
+8. urls, bookmark/urls bookmark:add
+9. templates bookmark_create.html
+10. bookmark/views BookmarkDetailView
+11. bookmark/urls bookmark:detail
+12. templates bookmark_detail.html
